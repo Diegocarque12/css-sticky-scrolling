@@ -1,0 +1,178 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const content = [
+  {
+    title: "Apple Watch",
+    image: "/sw-luxury.jpg",
+    p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. Duis eu tempus enim. Aliquam erat
+            volutpat. Donec vestibulum tempus ipsum. Mauris cursus vulputate
+            quam id efficitur. Quisque rutrum volutpat ex, ut blandit nibh
+            convallis ac. Quisque lacinia lobortis ex, sit amet tempor tellus.
+            Nulla justo orci, rutrum eu justo a, euismod faucibus velit. Aliquam
+            viverra augue ac ante euismod venenatis. Duis vel nisl quis nunc
+            ornare commodo ultrices quis magna. Ut at sagittis lacus. Integer
+            quis sollicitudin diam. Suspendisse gravida rhoncus risus, a porta
+            nisi imperdiet sit amet. Nunc maximus egestas tincidunt.`,
+    p2: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            esse explicabo omnis repellat! Error, quis minima iusto, corporis
+            dolorum eveniet repellendus similique provident asperiores commodi,
+            deserunt totam obcaecati. Quisquam, itaque?`,
+    p3: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. Duis eu tempus enim. Aliquam erat
+            volutpat. Donec vestibulum tempus ipsum. Mauris cursus vulputate
+            quam id efficitur. Quisque rutrum volutpat ex, ut blandit nibh
+            convallis ac. Quisque lacinia lobortis ex, sit amet tempor tellus.
+            Nulla justo orci, rutrum eu justo a, euismod faucibus velit. Aliquam
+            viverra augue ac ante euismod venenatis. Duis vel nisl quis nunc
+            ornare commodo ultrices quis magna. Ut at sagittis lacus. Integer
+            quis sollicitudin diam. Suspendisse gravida rhoncus risus, a porta
+            nisi imperdiet sit amet. Nunc maximus egestas tincidunt.`,
+  },
+  {
+    title: "Apple Watch Main Feature 1",
+    image: "/2sw.jpg",
+    p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. In aliquam pretium est, sed
+            posuere sapien faucibus eu. Ut diam metus, iaculis nec ornare
+            varius, vehicula eget turpis. Mauris sagittis urna at felis
+            fermentum, ac semper felis pharetra. Ut a blandit nisi. Aliquam
+            elementum, diam a laoreet aliquam, est ex fermentum neque, non
+            semper tellus odio vitae quam. Cras faucibus velit quis nisi finibus
+            faucibus. Sed non efficitur tortor, a varius ante. Aliquam ac
+            lobortis tellus. Suspendisse fringilla feugiat ex, sed cursus nisi
+            ornare a. Nam ac arcu odio. Vivamus et bibendum est. Suspendisse sit
+            amet sapien dui. Vestibulum ante ipsum primis in faucibus orci
+            luctus et ultrices posuere cubilia curae.`,
+    p2: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            esse explicabo omnis repellat! Error, quis minima iusto, corporis
+            dolorum eveniet repellendus similique provident asperiores commodi,
+            deserunt totam obcaecati. Quisquam, itaque?`,
+    p3: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. In aliquam pretium est, sed
+            posuere sapien faucibus eu. Ut diam metus, iaculis nec ornare
+            varius, vehicula eget turpis. Mauris sagittis urna at felis
+            fermentum, ac semper felis pharetra. Ut a blandit nisi. Aliquam
+            elementum, diam a laoreet aliquam, est ex fermentum neque, non
+            semper tellus odio vitae quam. Cras faucibus velit quis nisi finibus
+            faucibus. Sed non efficitur tortor, a varius ante. Aliquam ac
+            lobortis tellus. Suspendisse fringilla feugiat ex, sed cursus nisi
+            ornare a. Nam ac arcu odio. Vivamus et bibendum est. Suspendisse sit
+            amet sapien dui. Vestibulum ante ipsum primis in faucibus orci
+            luctus et ultrices posuere cubilia curae.`,
+  },
+  {
+    title: "Apple Watch Main Feature 2",
+    image: "/sw-white.jpg",
+    p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. In aliquam pretium est, sed
+            posuere sapien faucibus eu. Ut diam metus, iaculis nec ornare
+            varius, vehicula eget turpis. Mauris sagittis urna at felis
+            fermentum, ac semper felis pharetra. Ut a blandit nisi. Aliquam
+            elementum, diam a laoreet aliquam, est ex fermentum neque, non
+            semper tellus odio vitae quam.`,
+    p2: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            esse explicabo omnis repellat! Error, quis minima iusto, corporis
+            dolorum eveniet repellendus similique provident asperiores commodi,
+            deserunt totam obcaecati. Quisquam, itaque?`,
+    p3: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            nibh id mauris blandit aliquam at et nibh. Proin placerat vulputate
+            lacus, lobortis congue eros commodo volutpat. Sed sodales facilisis
+            ex sit amet volutpat. Pellentesque et quam ligula. Fusce fringilla
+            mi vitae neque mollis, fringilla tincidunt leo consectetur. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare
+            semper odio quis venenatis. Donec commodo lobortis erat, at
+            tincidunt tortor feugiat quis. Sed elementum et odio a gravida. Nunc
+            sit amet ullamcorper quam. Praesent dictum nulla nec erat accumsan,
+            eget dictum eros varius. Vivamus consectetur turpis odio, et
+            volutpat justo gravida eget. Proin enim velit, tristique sit amet
+            quam et, convallis tempor ligula. In aliquam pretium est, sed
+            posuere sapien faucibus eu. Ut diam metus, iaculis nec ornare
+            varius, vehicula eget turpis. Mauris sagittis urna at felis
+            fermentum, ac semper felis pharetra. Ut a blandit nisi. Aliquam
+            elementum, diam a laoreet aliquam, est ex fermentum neque, non
+            semper tellus odio vitae quam.`,
+  },
+];
+---
+
+<Layout title="CSS Sticky Scrolling">
+  <main>
+    <div
+      class="relative w-full h-screen bg-[url('/main-sw.jpg')] bg-cover bg-fixed"
+    >
+    </div>
+    <section>
+      {
+        content.map((contentItem) => (
+          <article class="relative h-auto flex justify-between even:flex-row-reverse even:bg-[#fafafaff] even:text-left odd:text-right">
+            <div class="sticky top-0 min-w-[50%] h-screen flex items-center justify-center">
+              <img
+                class="absolute h-full"
+                src={contentItem.image}
+                alt="lorem picsum"
+              />
+            </div>
+            <div class="w-[40%] m-4 p-12">
+              <h2 class="font-bold text-6xl mb-8">{contentItem.title}</h2>
+              <p class="text-gray-500 mb-2 text-xl">{contentItem.p1}</p>
+              <p class="text-gray-500 mb-2 text-xl">{contentItem.p2}</p>
+              <p class="text-gray-500 mb-2 text-xl">{contentItem.p3}</p>
+            </div>
+          </article>
+        ))
+      }
+    </section>
+  </main>
+</Layout>
