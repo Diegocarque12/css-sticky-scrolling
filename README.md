@@ -1,54 +1,48 @@
-# Astro Starter Kit: Basics
+# Sticky Scrolling Landing Page with Pure CSS and Tailwind
 
-```sh
-npm create astro@latest -- --template basics
+This project is a simple landing page implementation showcasing the use of sticky scrolling in the banner section and content articles, achieved solely with CSS and Tailwind CSS framework.
+
+## Features
+
+- **Sticky Scrolling Banner**: The landing page features a banner section with a sticky scrolling effect, allowing the banner to remain visible as users scroll down the page.
+
+- **Dynamic Content Sections**: Utilizing Tailwind CSS utilities, the landing page includes dynamically styled content articles, demonstrating the flexibility and power of Tailwind for rapid UI development.
+
+## Technologies Used
+
+- **Astro**
+
+- **HTML5**
+
+- **CSS3**: The styling is primarily accomplished with CSS3, leveraging modern techniques for layout and design.
+
+- **Tailwind CSS**: This project utilizes the Tailwind CSS framework for streamlined styling and rapid development, showcasing its utility in creating dynamic and responsive UI components.
+
+## Usage
+
+To view the landing page locally, simply clone the repository and run .
+
+```bash
+git clone https://github.com/Diegocarque12/css-sticky-scrolling
+cd css-sticky-scrolling
+npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Contributing
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
-## 🚀 Project Structure
+## License
 
-Inside of your Astro project, you'll see the following folders and files:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Acknowledgements
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Thanks to the creators of Tailwind CSS for providing such a powerful utility-first CSS framework.
+- Inspiration for the sticky scrolling effect from various online tutorials and resources.
